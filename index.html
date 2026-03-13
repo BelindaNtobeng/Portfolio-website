@@ -8,13 +8,13 @@
     <meta name="keywords" content="Belinda Ntobeng, Portfolio, Software Engineer, Projects, Skills, Resume, Contact, GitHub, LinkedIn, Web Developer, Mobile Developer, Problem Solver, Team Player"> <!--SEO-->
     <title>Belinda Ntobeng's Portfolio</title> 
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="container">
   <header>
     <nav>
-      <h3>Belinda Ntobeng</h3>
+      <h3 class="name">Belinda Ntobeng</h3>
       <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -25,90 +25,119 @@
   </header>
 
   <main>
-    <div class="book-container">
-      <div class="spine"></div>
-    <div class="book">
-      
-
+    
     <!-- Hero Section -->
-      <section class="page cover"id="hero">
-      <img src="assets/images/image1.jpg" alt="Belinda's Picture" class="hero-image">
-      <h1 class="hero-title">Hello, I'm <br> Belinda Ntobeng</h1>
-      <h3 class="hero-subtitle">Full Stack Software Engineer</h3>
-      <p class="hero-description"> I design and build structured, scalable web systems with a focus on clean architecture and practical implementation.</p>
-      <a href="#projects" class="btn">View My Projects</a>
-      <a href="Resume.pdf" download>Download CV</a>
+      <section class="book-container page"id="hero">
+        <div class="spiral-horizontal">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="book">
 
-      <div class="social-links">
-        <a href="https://github.com/BelindaNtobeng" target="_blank"><img src="assets/images/github.png" alt="GitHub"></a>
-        <a href="www.linkedin.com/in/belinda-ntobeng" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://www.discord.com/users/BelindaNtobeng" target="_blank"><img src="assets/images/discord.png" alt="Discord"></a>
+          <div class="sticky right"><a href="#about">About Me</a></div>
 
-      </div>
+
+          <div class="hero-content">
+            <div>
+          <img src="assets/images/image1.jpg" alt="Belinda's Picture" class="hero-image">
+          </div>
+          <div>
+          <h1 class="hero-title">Hello, I'm <br> Belinda Ntobeng</h1>
+          <h3 class="hero-subtitle">Full Stack Software Engineer</h3>
+          <p class="hero-description"> I design and build structured, scalable web systems with a focus on clean architecture and practical implementation.</p>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Projects</a>
+          <a href="Resume.pdf" class="btn-outline" download > Download CV</a>
+        </div>
+          
+
+          <hr>
+          <div class="social-links">
+            <a href="https://github.com/BelindaNtobeng" target="_blank"><img src="assets/images/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/belinda-ntobeng" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.discord.com/users/BelindaNtobeng" target="_blank"><img src="assets/images/discord.png" alt="Discord"></a>
+          </div>
+        </div>
+        
       </section>
 
       <!-- Projects Section -->
-      <section class="page" id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-          <img src="assets/images/project1.png" alt="Project 1">
-          <h3>Title</h3>
-          <span>HTML</span>
-          <span>CSS</span>
-          <a href="#">View Project</a>
-          <a href="#">Live Demo</a>
+      <section class="book-container page" id="projects">
+        <div class="spine"></div>
+        <div class="book">
+          <h2>My Projects</h2>
+          <div class="project">
+            <img src="assets/images/project1.png" alt="Project 1">
+            <h3>Title</h3>
+            <span>HTML</span>
+            <span>CSS</span>
+            <a href="#">View Project</a>
+            <a href="#">Live Demo</a>
+          </div>
         </div>
       </section>
 
       <!-- About Section -->
-      <section class="page" id="about">
-        <h2>About Me</h2>
-        <h3>Hello, I'm Belinda Ntobeng!</h3>
-        <h4> Background and Experience </h4>
-        <h4> Technical Skills</h4>
-          <div class="skills">
+      <section class="book-container page" id="about">
+        <div class="spine"></div>
+        <div class="book">
+          <h2>About Me</h2>
+          <h3>Hello, I'm Belinda Ntobeng!</h3>
+          <h4> Background and Experience </h4>
+          <h4> Technical Skills</h4>
+            <div class="skills">
 
-            <h5>Front end</h5>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
+              <h5>Front end</h5>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
 
-            <h5>Back end</h5>
-            <span>Node.js</span>
-            <span>PHP</span>
-            <span>SQL</span>
+              <h5>Back end</h5>
+              <span>Node.js</span>
+              <span>PHP</span>
+              <span>SQL</span>
 
-            <h5> Tools & More</h5>
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>VS Code</span>
-            <span>Agile Methodologies</span>
-            <span>Problem Solving</span>
-            <span>Team Collaboration</span>
-            
-          </div>
+              <h5> Tools & More</h5>
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>VS Code</span>
+              <span>Agile Methodologies</span>
+              <span>Problem Solving</span>
+              <span>Team Collaboration</span>
+              
+            </div>
+        </div>
       </section>
 
        <!-- Contact Section -->
-      <section class="page"id="contact">
-        <h2>Get in Touch</h2>
-        <form action="submit_form.php" method="POST">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <textarea name="message" placeholder="Your Message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
+      <section class="book-container page" id="contact">
+        <div class="spine"></div>
+        <div class="book">
+          <h2>Get in Touch</h2>
+          <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
 
-        <div class="contact-info">
-          <p>Email: <a href="mailto:belindantobeng7@gmail.com">belindantobeng7@gmail.com</a></p>
-          <p>Phone: <a href="tel:+27614407302">+27 61 440 7302</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/belinda-ntobeng" target="_blank">linkedin.com/in/belinda-ntobeng</a></p>
+          <div class="contact-info">
+            <p>Email: <a href="mailto:belindantobeng7@gmail.com">belindantobeng7@gmail.com</a></p>
+            <p>Phone: <a href="tel:+27614407302">+27 61 440 7302</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/belinda-ntobeng" target="_blank">linkedin.com/in/belinda-ntobeng</a></p>
+          </div>
         </div>
       </section>
     </div>
-    </div>
   </main>
 <script src="js/main.js"></script>
+  </div>
 </body>
 </html>
